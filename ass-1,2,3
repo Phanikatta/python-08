@@ -1,0 +1,23 @@
+#Ass-1
+#To print 1 to n odd numbers
+n=int(input('Enter n value:'))
+for i in range(1,n+1,2):
+	print(i,end=' ')
+
+#Ass-2
+#To print n to 1 numbers
+n=int(input('Enter n value:'))
+for i in range(n,0,-1):
+	print(i,end=' ')
+
+#Ass-3
+#To print given number is prime or not
+n=int(input('Enter a number:'))
+c=0
+for i in range(1,n+1):
+	if n%i==0:
+		c=c+1
+if c==2:
+	print('yes')
+else:
+	print('no')
